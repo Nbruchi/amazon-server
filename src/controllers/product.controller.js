@@ -314,14 +314,7 @@ const getTopProducts = async (req, res, next) => {
       ],
       take: limit,
       include: {
-        category: true,
-        images: {
-          select: {
-            url: true,
-            alt: true
-          }
-        },
-        brand: true
+        category: true
       }
     });
 
