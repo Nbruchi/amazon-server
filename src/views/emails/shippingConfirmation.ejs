@@ -1,0 +1,30 @@
+<h1>Your Order Has Shipped!</h1>
+
+<p>Hello <%= name %>,</p>
+
+<p>Great news! Your order has been shipped and is on its way to you.</p>
+
+<div style="background-color: #f7f7f7; padding: 15px; border-radius: 5px; margin: 20px 0;">
+  <h2 style="margin-top: 0; color: #232F3E;">Shipping Information</h2>
+  <p><strong>Order ID:</strong> <%= orderId %></p>
+  <p><strong>Tracking Number:</strong> <%= trackingNumber %></p>
+  <p><strong>Estimated Delivery:</strong> <%= estimatedDelivery %></p>
+</div>
+
+<p>You can track your package and view more details about your order by clicking the button below:</p>
+
+<div class="text-center">
+  <a href="<%= url %>" class="btn">Track Your Order</a>
+</div>
+
+<p>If you have any questions about your shipment, please contact our customer service team.</p>
+
+<h3>What's Next?</h3>
+<ul>
+  <li>You'll receive another email when your package has been delivered.</li>
+  <li>After receiving your order, you can leave a review to help other customers make their purchasing decisions.</li>
+  <li>If there are any issues with your order, please contact us immediately.</li>
+</ul>
+
+<p>Thank you for shopping with us!</p>
+<p>The Amazon Clone Team</p>
